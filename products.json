@@ -1,0 +1,328 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "image": "img/apple.svg",
+      "price": {
+        "amount": 9.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 1,
+      "category": "fruit"
+    },
+    {
+      "id": 2,
+      "image": "img/bar.svg",
+      "name": "Granola Bar",
+      "price": {
+        "amount": 6.99,
+        "currency": "Kn",
+        "measureUnit": "Pc"
+      },
+      "popularity": 2,
+      "category": "other"
+    },
+    {
+      "id": 3,
+      "image": "img/carrot.svg",
+      "name": "Carrot",
+      "price": {
+        "amount": 3.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 3,
+      "category": "vegetable"
+    },
+    {
+      "id": 4,
+      "name": "Eggplant",
+      "image": "img/eggplant.svg",
+      "price": {
+        "amount": 8.79,
+        "currency": "Kn",
+        "measureUnit": "Pc"
+      },
+      "popularity": 4,
+      "category": "vegetable"
+    },
+    {
+      "id": 5,
+      "image": "img/lemon.svg",
+      "name": "Lemon",
+      "price": {
+        "amount": 15.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 5,
+      "category": "fruit"
+    },
+    {
+      "id": 6,
+      "image": "img/milk.svg",
+      "name": "Milk 1 l",
+      "price": {
+        "amount": 7.99,
+        "currency": "Kn",
+        "measureUnit": "Pc"
+      },
+      "popularity": 6,
+      "category": "dairy"
+    },
+    {
+      "id": 7,
+      "image": "img/beetroot.svg",
+      "name": "Beetroot",
+      "price": {
+        "amount": 5.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 7,
+      "category": "vegetable"
+    },
+    {
+      "id": 8,
+      "image": "img/apricot.svg",
+      "name": "Apricot",
+      "price": {
+        "amount": 7.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 8,
+      "category": "fruit"
+    },
+    {
+      "id": 9,
+      "image": "img/avocado.svg",
+      "name": "Avocado",
+      "price": {
+        "amount": 10.99,
+        "currency": "Kn",
+        "measureUnit": "Pc"
+      },
+      "popularity": 29,
+      "category": "fruit"
+    },
+    {
+      "id": 10,
+      "image": "img/bananas.svg",
+      "name": "Bananas",
+      "price": {
+        "amount": 8.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 10,
+      "category": "fruit"
+    },
+    {
+      "id": 11,
+      "image": "img/bell-pepper.svg",
+      "name": "Bell Pepper",
+      "price": {
+        "amount": 5.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 11,
+      "category": "vegetable"
+    },
+    {
+      "id": 12,
+      "image": "img/cherry.svg",
+      "name": "Cherry",
+      "price": {
+        "amount": 12.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 12,
+      "category": "fruit"
+    },
+    {
+      "id": 13,
+      "image": "img/blueberry.svg",
+      "name": "Blueberry",
+      "price": {
+        "amount": 15.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 13,
+      "category": "fruit"
+    },
+    {
+      "id": 14,
+      "image": "img/broccoli.svg",
+      "name": "Broccoli",
+      "price": {
+        "amount": 9.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 14,
+      "category": "vegetable"
+    },
+    {
+      "id": 15,
+      "image": "img/cauliflower.svg",
+      "name": "Cauliflower",
+      "price": {
+        "amount": 8.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 15,
+      "category": "vegetable"
+    },
+    {
+      "id": 16,
+      "image": "img/pomegranate.svg",
+      "name": "Pomegranate",
+      "price": {
+        "amount": 15.99,
+        "currency": "Kn",
+        "measureUnit": "Pc"
+      },
+      "popularity": 16,
+      "category": "fruit"
+    },
+    {
+      "id": 17,
+      "image": "img/strawberry.svg",
+      "name": "Strawberry",
+      "price": {
+        "amount": 13.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 17,
+      "category": "fruit"
+    },
+    {
+      "id": 18,
+      "image": "img/watermelon.svg",
+      "name": "Watermelon",
+      "price": {
+        "amount": 3.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 18,
+      "category": "fruit"
+    },
+    {
+      "id": 19,
+      "image": "img/meat.svg",
+      "name": "Beef Steak",
+      "price": {
+        "amount": 87.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 19,
+      "category": "other"
+    },
+    {
+      "id": 20,
+      "image": "img/fish.svg",
+      "name": "Trout",
+      "price": {
+        "amount": 55.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 20,
+      "category": "other"
+    },
+    {
+      "id": 21,
+      "image": "img/mushroom.svg",
+      "name": "Champignion",
+      "price": {
+        "amount": 13.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 21,
+      "category": "other"
+    },
+    {
+      "id": 22,
+      "image": "img/honey.svg",
+      "name": "Honey 720 ml",
+      "price": {
+        "amount": 39.99,
+        "currency": "Kn",
+        "measureUnit": "Pc"
+      },
+      "popularity": 22,
+      "category": "other"
+    },
+    {
+      "id": 23,
+      "image": "img/soda.svg",
+      "name": "Coke 1.5 l",
+      "price": {
+        "amount": 12.99,
+        "currency": "Kn",
+        "measureUnit": "Pc"
+      },
+      "popularity": 23,
+      "category": "other"
+    },
+    {
+      "id": 24,
+      "image": "img/cheese.svg",
+      "name": "Cheese",
+      "price": {
+        "amount": 45.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 24,
+      "category": "dairy"
+    },
+    {
+      "id": 25,
+      "image": "img/yogurt.svg",
+      "name": "Fruit-flavored Yogurt",
+      "price": {
+        "amount": 5.99,
+        "currency": "Kn",
+        "measureUnit": "Pc"
+      },
+      "popularity": 11,
+      "category": "dairy"
+    },
+    {
+      "id": 26,
+      "image": "img/garlic.svg",
+      "name": "Garlic",
+      "price": {
+        "amount": 9.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 26,
+      "category": "vegetable"
+    },
+    {
+      "id": 27,
+      "image": "img/green-chili-pepper.svg",
+      "name": "Green Chili Pepper",
+      "price": {
+        "amount": 10.99,
+        "currency": "Kn",
+        "measureUnit": "Kg"
+      },
+      "popularity": 9,
+      "category": "vegetable"
+    }
+  ]
+}

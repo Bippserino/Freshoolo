@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #026a23;
+    background-color: #d2ea9b;
+}
+
+h5 {
+    line-height: 1.5;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #333;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgba(2, 106, 35, 0.65);
+}
+
+button:focus {
+    outline: none;
+  }
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+
+/* HEADING */
+
+#heading {
+    background-color: #65c172;
+    height: 715px;
+    position: relative;
+    width: 100%;
+}
+
+.about-btn, .shop-btn, .cart-btn {
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #27994b;
+    z-index: 100;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    padding-right: 20px;
+}
+
+.header-title {
+    text-align: center;
+    width: 40%;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 75px;
+}
+
+.harvest-img-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
+
+.harvest-img {
+    width: 100%;
+}
+
+.always-fresh {
+    color: white;
+    font-size: 6rem;
+}
+
+.order-now {
+    font-size: 3rem;
+}
+
+.get-started-btn, .contact-us-btn {
+    background: #27994b;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    border-color: #65c172;
+ }
+
+ .shopping-cart-img, .mail-img {
+     width: 20px;
+     margin-bottom: 5px;
+ }
+
+ /* END OF HEADING */
+
+ /* CATEGORIES */
+
+ #categories {
+     background-color: #d2ea9b;
+ }
+
+.apple-img, .carrot-img, .milk-img, .bar-img {
+    width: 150px;
+}
+
+.category-box {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.category-text-box {
+    display: inline-grid;
+    margin-bottom: 30px;
+}
+
+.vegetable-category, .fruit-category, .dairy-category, .other-category {
+    margin: 50px 50px 20px 50px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 40px;
+}
+
+.vegetable-category:hover, .fruit-category:hover, .dairy-category:hover, .other-category:hover {
+    background-color: #eff4d9;
+}
+
+/* END OF CATEGORIES */
+
+/* POPULAR OPTIONS */
+
+#popular-options {
+    background-color: #d2ea9b;
+    padding-bottom: 100px;
+}
+
+.popular-options-title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #026A23;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #026A23;
+}
+
+.popular-item {
+    text-align: center;
+    width: 300px;
+    padding-top: 30px;
+    border-radius: 10px;
+    display: inline-grid;
+    margin: 0 40px;
+}
+
+.popular-item h3 {
+    margin-top: 10px;
+}
+
+.carousel-indicators li {
+    background-color: #65c172;
+}
+  
+.carousel-indicators .active {
+    background-color: #026a23;
+}
+article {
+    display: inline-block;
+}
+
+.carousel-inner {
+    text-align: center;
+    background-color: #eff4d9;
+    width: 70%;
+    height: 460px;
+    margin: 0 auto;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+
+.carousel-control-next {
+    margin: 0 20px;
+}
+
+/* END OF POPULAR OPTIONS */
+
+/* BUSINESS DESCRIPTION */
+
+.business-description-box {
+    text-align: center;
+    background-color:#65c172;
+    padding-bottom: 30px;
+}
+
+.business-text-box {
+    display: inline-grid;
+    margin-bottom: 30px;
+    margin: 0 70px;
+}
+
+.delivery-img, .bio-img, .safe-img{
+    width: 100px;
+}
+
+
+.delivery-category, .bio-category, .safe-category {
+    margin: 50px 50px 20px 50px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.business-text-description {
+    width: 250px;
+    margin: 10px auto;
+    color: white;
+}
+
+/* END OF BUSINESS DESCRIPTION */
+
+/* CONTACT US */
+
+#contact {
+    text-align: center;
+    padding: 50px 0 200px 0;
+    margin: 0 auto;
+    height: 200px;
+    width: 50%;
+    
+}
+
+.contact-us {
+    line-height: 1.5;
+}
+
+.contact-us-btn {
+    background-color: #65c172;
+    color: #026A23;
+}
+
+/* END OF CONTACT US */
+
+/* FOOTER */
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    background-color: #65c172;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+/* CART */
+
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;  
+    transition: 0.2s;
+    z-index: 101;
+    visibility: hidden;
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    z-index: 102;
+    background-color: #d2ea9b;
+    padding: 1.5rem;
+    transition: 0.2s;
+    transform: translateX(100%);
+    border-left: solid 5px #026a23;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.cart::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cart {
+        width: 30vw;
+        min-width: 450px;
+    }
+}
+
+.showCart {
+    transform: translateX(0);
+}
+
+.transparentBcg {
+    visibility: visible;
+}
+
+.cart-img {
+    width: 200px;
+}
+
+.close-cart {
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.cart h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cart-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.cart-item img {
+    width: 75px;
+}
+
+.cart-item h4 {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.cart-item h5 {
+    margin: 0.5rem 0;
+}
+
+.item-amount {
+    text-align: center;
+}
+
+.remove-item {
+    color: #026a23;
+    cursor: pointer;
+}
+
+.fa-chevron-up, .fa-chevron-down {
+    color: #026A23;
+    cursor: pointer;
+}
+
+.cart-footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.cart-footer h3 {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.fa-times-circle {
+    border-radius: 100%;
+}
+
+.fa-times-circle:hover {
+    background-color: white;
+}
+
+/* END OF CART */
+
+@media screen and (max-width: 700px) {
+    .always-fresh {
+        font-size: 3rem;
+    }
+
+    .header-title {
+        margin-left: 150px;
+        margin-top: 120px;
+    }
+
+    .harvest-img-box{
+        visibility: hidden;
+    }
+
+    #heading {
+        height: 500px;
+    }
+
+    #popular-options {
+        display: none;
+    }
+
+    .contact-us {
+        font-size: 1rem;
+    }
+    
+
+
+
+}
+
+/* SHOP HTML */
+
+/* SHOPPING CATEGORY */
+
+.category-box-store {
+    text-align: center;
+    padding: 50px 0 0;
+}
+
+.apple-img-store, .carrot-img-store, .milk-img-store, .bar-img-store {
+   width: 75px;
+}
+
+.money-img-store, .abc-img-store {
+    width: 40px;
+}
+
+.money-sort-category-store, .abc-sort-category-store {
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 75px;
+}
+
+.vegetable-category-store, .fruit-category-store, .dairy-category-store, .other-category-store, .store-category-money-store, .store-category-abc-store {
+   margin: 50px 50px 20px 50px;
+   border-radius: 100%;
+   background-color: white;
+   padding: 20px;
+}
+
+.store-category-store {
+    padding: 5px;
+}
+
+.vegetable-category-store:hover, .fruit-category-store:hover, .dairy-category-store:hover, .other-category-store:hover, .money-sort-category-store:hover, .abc-sort-category-store:hover {
+    background-color: #eff4d9;
+    cursor: pointer;
+}
+
+.selected-category {
+    border: 3px solid #026a23;
+}
+
+.fa-arrow-up, .fa-arrow-down {
+    color: #026a23;
+}
+
+/* END OF SHOPPING CATEGORY */
+
+/* SHOPPING ITEMS */
+
+#shop-window {
+    padding: 4rem 2rem;
+    background-color: rgba(255, 255, 255, .8);
+    margin: 0 auto;
+    width: 1200px;
+    border-radius: 20px;
+}
+
+#shop-window h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.products-center {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.bag-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 0.5rem 0.75rem;
+    transition: 0.2s;
+    transform: translateX(101%);
+    cursor: pointer;
+    box-shadow: none;
+    background-color: #65c172;
+}
+
+.bag-btn:hover {
+    color: white;
+}
+
+.bag-btn:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+.fa-shopping-cart {
+    margin-right: 0.5rem;
+}
+
+.img-container:hover .bag-btn {
+    transform: translateX(0);
+}
+
+.product {
+    max-width: 250px;
+    cursor: pointer;
+}
+
+.product-img {
+    display: block;
+    width: 80%;
+    min-height: 12rem;
+    transition: 0.2s;
+    margin: 0 auto;
+}
+
+.img-container:hover .product-img {
+    opacity: 0.5;
+}
+
+.product h3 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.product h4 {
+    margin-top: 0.7rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .product {
+        width: 150px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 985px) {
+    .product {
+        margin: 0 auto;
+    }
+}
+
+/* END OF SHOPPING ITEMS */
+
+/* END OF SHOPPING HTML */
+
+
+/* ABOUT US HTML */
+
+#about-us {
+    text-align: center;
+}
+#about-us h1 {
+    margin-bottom: 40px;
+    font-size: 4rem;
+}
+
+#about-us div {
+    padding: 100px;
+}
+
+.ceo, .store-manager, .quality-technician {
+    display: inline-block;
+}
+
+.ceo-img, .store-manager-img, .quality-technician-img  {
+    width: 200px;
+}
+
+.ceo-text, .store-manager-text, .quality-technician-text {
+    margin: 20px auto;
+}
+
+/* END OF ABOUT US HTML */
